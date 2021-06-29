@@ -1,2 +1,2 @@
-# ConceitosBasicos_JavaScript
-Estudos JavaScript
+# Conceitos Básicos de JavaScript
+Adquirindo conhecimento.
