@@ -34,7 +34,7 @@ class ActiovSmoothScroll extends SmoothScroll {
         this.sectionElements = document.querySelectorAll(sections);
         //Bind: para handleScroll ter um this forçado sempre referente ao ActiovSmoothScroll
         this.handleScroll = this.handleScroll.bind(this); 
-        this. handleScroll();
+        this.handleScroll();
         this.activeNavScroll();
     }
 
@@ -56,6 +56,6 @@ class ActiovSmoothScroll extends SmoothScroll {
 }
 
 
-
 // para executar a class é preciso usar o 'new'
 const scroll = new ActiovSmoothScroll("a[href^='#']", "section");
+
